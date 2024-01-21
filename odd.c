@@ -4,7 +4,7 @@ void main()
     int number = 0;
 
     printf("Enter any number");
-    scanf("%d",&number);
+     scanf("%d",&number);
 
     // check 
 
