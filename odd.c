@@ -13,6 +13,6 @@ void main()
           printf("Number is odd ");
      }
      else{
-            printf("unknon number ");
+            printf("number is even ");
      }
 }
