@@ -3,7 +3,7 @@ void main()
 {
     char letter = ' ';
 
-    printf("Enter any alfabet of planet");
+    printf("Enter any alfabet ( a to h )planet");
     scanf("%C",&letter);
 
         if(letter=='a')
