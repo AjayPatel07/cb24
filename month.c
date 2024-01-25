@@ -27,38 +27,41 @@ void main()
     {
         printf("Invalid!");
     }
-
-    if (month > 0)
+    else
     {
-        if (month <= 7)
+        if (month > 0)
         {
-            if (month % 2 == 1)
+            if (month <= 7)
             {
-                printf("31 day %d", month);
+                if (month % 2 == 1)
+                {
+                    printf("31 day %d", month);
+                }
+
+                if (month % 2 == 0)
+                {
+                    if (month == 2)
+                        printf("28 day %d", month);
+
+                    else
+                        printf("30 day %d", month);
+                }
             }
-
-            if (month % 2 == 0)
+            if (month >= 8)
             {
-                if (month == 2)
-                    printf("28 day %d", month);
 
-                else
+                if (month % 2 == 1)
+                {
                     printf("30 day %d", month);
-            }
-        }
-        if (month >= 8)
-        {
+                }
 
-            if (month % 2 == 1)
-            {
-                printf("30 day %d", month);
-            }
-
-            if (month % 2 == 0)
-            {
-                printf("31 day %d", month);
+                if (month % 2 == 0)
+                {
+                    printf("31 day %d", month);
+                }
             }
         }
     }
+
     printf("\ngoodby..");
 }
