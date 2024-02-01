@@ -5,11 +5,11 @@ int main()
 {
     int i,j,n;
     printf("enter terms:");
-    scanf("%d,%d",&i,j);
+    scanf("%d",&n);
 
-    for (i=1;i<6;i++)
+    for (i=1;i<=n;i++)
     {
-        for (j=i;j<6;j++)
+        for (j=i;j<=n;j++)
         {
             printf("01");
             
@@ -20,5 +20,6 @@ int main()
                 
             
     }
-
+    
+    
 }

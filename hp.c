@@ -3,7 +3,7 @@ int main()
 {
     int a ;
     int b = 1;
-    int c ;
+    int c;
     printf("enter size of pattern \n");
     scanf("%d", &a);
     while (b <= a)
