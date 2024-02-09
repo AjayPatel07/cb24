@@ -23,11 +23,16 @@ void main()
             }
         }
     }
-        printf(" Array element: ");
-        for(i=0;i<5;i++)
-        {
-            printf("%d",a[i]);
+    printf(" Array element : ");
+    for(i=0; i<5; i++)
+    {
+        printf("%d,\t",a[i]);
 
-        }
+    }
+
+
+
+
+
 
 }
