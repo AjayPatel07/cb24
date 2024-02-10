@@ -18,7 +18,8 @@ void main()
      printf("Enter value of number 2 ");
      scanf("%d", &number2);
 
-     getSubtraction(number1,number2);
+// getSubtraction(numberz);
+    getSubtraction(number1,number2);
      
      getSubtraction(number2,number1);
 }
